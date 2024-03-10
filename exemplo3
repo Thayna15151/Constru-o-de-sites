@@ -1,0 +1,48 @@
+<html>
+    <head>
+    </head>
+<!-- comentario -->
+    <body bgcolor="#ADD8E6">
+            
+        <h1 align="certer">Título 1</h1>
+        <hr noshade width="50%" align="left">
+        <h2><font color="blue"> Título 2</font></h2>
+        <h3>Título 3</h3>
+        <h4>Título 4</h4>
+        <h5>Título 5</h5>
+
+        <br><br><br>
+<!-- 
+        <p> 
+            <strong>Texto em negrito</strong> 
+        
+        </p>
+
+        <p>
+            <em>texto em italico</em>
+        </p> -->
+
+        <center>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3EgVt-ocgZlvP0xaEoM9uumzUncFVJYhziAOhPveIKA&s" alt="ania"
+             width="150">
+             <p> <strog>Ania</strog></p>
+        </center>
+
+      <a href="https://www.google.com/search?q=fotoa+da+ania&oq=fotoa+da+ania&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgNGIAEMgkIAhAAGA0YgAQyCQgDEAAYDRiABDIJCAQQABgNGIAEMgkIBRAAGA0YgAQyCQgGEAAYDRiABDIJCAcQABgNGIAEMgkICBAAGA0YgAQyCQgJEAAYDRiABNIBCDUyMTVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8" target="_blank">Meu link</a>
+        
+      <ol type="a">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+      </ol>
+
+      <ul type="disc">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+      </ul>
+
+    </body>
+</html> 
