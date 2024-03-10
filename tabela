@@ -1,0 +1,28 @@
+<html>
+    <table border="1" width="250" height="250">
+
+        <tr bgcolor="yellow">
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>d</td>
+        </tr>
+        <tr>
+            <td bgcolor="red">E</td>
+                <th cellspacing="70" colspan="2" rowspan="3" bgcolor="#D3D3D3">Z</th>
+            <td>O</td>
+        <tr>
+        </tr>
+        <td>K</td>
+        <td bgcolor="red">D</td>
+       
+        </tr>
+        <tr bgcolor="gree">
+            <td>F</td>
+            <td>h</td>
+            <td>Y</td>
+            <td>D</td>
+        </tr>
+
+    </table>
+</html>
