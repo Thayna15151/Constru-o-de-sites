@@ -1,0 +1,61 @@
+<html> 
+
+    <HEAd>
+        <meta http-equiv="refresh" content="1; file:///C:/Users/Aluno/Desktop/CSi/tabela%201,ATV%205.html"></meta>
+    </HEAd>
+        <center>
+        
+    <TAble border="1">
+        <p>Catálogo da Metal & Cia</p>
+    
+        <TR bgcolor="gray">
+            <th cellpadding="4" colspan="4">Tabela de preços</th>
+        </TR>
+        <tr>
+            <td rowspan="2" >Seminovos</td>
+            <td>Trompete</td>
+            <td>Trompete</td>
+            <td>Trompa</td>
+        </tr>
+        <tr>
+            <td>$500</td>
+            <td>$640</td>
+            <td>$650</td>
+        </tr>
+        <tr>
+            <td colspan="4">Visite nossa loja</td>
+        </tr>
+</center>
+    </table>
+
+    <table border="1" cellpadding="6">
+        <tr bgcolor="gray" cellspacing="3">
+           
+            <th><font color="white">Course Name</font></th>
+            <th><font color="white">Course Duration</font></th>
+            <th><font color="white">Course Cost</font></th>
+        
+        </tr> 
+    <center>                                                                 </P>
+        <tr bgcolor="#86b68d">
+            <td>Web Development</td>
+            <td>2 Months</td>
+            <td>Rs. 5000/-</td>
+        </tr>
+        <tr>
+            <td>Web Development</td>
+            <td>Rs. 5000/-</td>
+            <td>Rs. 15000/-</td>
+        </tr>
+        <tr>
+            <td>Server-side Progarmming</td>
+            <td>Months</td>
+            <td>Rs. 25000/-</td>
+        </tr>
+        <tr>
+            <td>Total Cost</td>
+            <td>Rs. 45000/-</td>
+        </tr>
+    </center>   
+    </table>
+</html>
