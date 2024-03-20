@@ -1,0 +1,117 @@
+<html>
+    <meta http-equiv="refresh" content=1; url="file:///C:/Users/Aluno/Desktop/csi/atv4.html"></meta>
+    
+    <h4><font color="blue">Nota dos alunos </font></h4>
+    <hr>
+    <table border="1" width="350">
+        <tr>
+            <th>Alunos</th>
+            <th colspan="2">Notas</th>
+        </tr>
+        <tr>
+            <th>-</th>
+            <th><em>Prova</em></th>
+            <th><em>Trabalho</em></th></th>
+        </tr>
+        <tr bgcolor="gray">
+            <td>Ana Paula</td>
+            <TH><font color="gree">10</font></TH>
+            <th><font color="gree">8</font></th>
+        </tr>
+        <tr>
+            <td>Beatriz</td>
+            <th><font color="gree">7</font></th>
+            <th><font color="red">5</font></th>
+        </tr>
+        <tr bgcolor="gray">
+            <td>Joaquim</td>
+            <th><font color="gree">9</font></th>
+            <th><font color="gree">10</font></th>
+        </tr>
+        <tr>
+            <td>Paulo</td>
+            <th><font color="red">4,5</font></th>
+            <th><font color="gree">6</font></th>
+        </tr>
+        <tr bgcolor="gray">
+            <td>Tadeu</td>
+            <th><font color="red">3</font></th>
+            <th><font color="red">2</font></th>
+        </tr>
+    </table>
+<p>                                                        </p>
+    <table border="1" width="650" height="75">
+
+        <tr>
+            <th bgcolor="#2ef8a0" colspan="5" ><font size="6">Tabela de Servisos Mecânicos</font></th>
+        </tr>
+        <tr width="20">
+            <th bgcolor="#008080" rowspan="5">Nacionais</th>
+            <th bgcolor="gray">Veículos</th>
+            <th bgcolor="gray">Serviço</th>
+            <th bgcolor="gray">Tempo Previsto</th>
+            <th bgcolor="gray" width="100">Valor</th>
+        </tr>
+        <tr>
+            <td>Caminhonete S10</td>
+            <td>Suspensão</td>
+            <td align="center">3 horas e 25 minutos</td>
+            <td align="right">350,00</td>
+        </tr>
+        <tr>
+            <td>Caminhote <p>ranger</p></td>
+            <td>Freio</td>
+            <td align="center">3 horas e 45 minutos</td>
+            <td align="right">200,00</td>
+        </tr>
+        <tr>
+            <td cellpadding="">Caminhonete<p>Hilux</p></td>
+            <td>Troca de Bateria</td>
+            <td align="center">30 minutos</td>
+            <td align="right">25,00</td>
+        </tr>
+        <tr>
+            <td>Caminhonete D10</td>
+            <td>Alinhamento</td>
+            <td align="center">1 hora e 40 minutos</td>
+            <td align="right">220,00</td>
+        </tr>
+
+    </table>
+            <p></p>
+    <table border="1" width="750">
+        <tr>
+            <th bgcolor="#ff0000" colspan="7" ><font size="5">Venha Morar em Nossos Belos Residencias-Viver Serra</font></th>
+        </tr>
+        <tr>
+            <th bgcolor="yellow" colspan="3">Apartamentos</th>
+            <th bgcolor="orange">Localização</th>
+            <td bgcolor="orange">Laranjeiras - <p>4 min.</p></td>
+            <td bgcolor="orange">Manguinhos - <p>2 min.</p></td>
+            <td bgcolor="orange">Vitoria- 8 min</td>
+        </tr>
+        <tr bgcolor="yellow">
+            <th>2 <p>Quartos</p></th>
+            <th>3 <p>Quartos</p></th>
+            <th>4 <p>Quartos</p></th>
+            <th colspan="4" bgcolor="orange">Corretor On-Line</th>
+        </tr>
+        <tr bgcolor="yellow">
+            <th>1 Suite</th>
+            <th>2 Suite</th>
+            <th>3 <p>Suites</p></th>
+            <td bgcolor="orange">3333-2333</td>
+            <td bgcolor="orange">9999-9969</td>
+            <td bgcolor="orange">8888-8868</td>
+            <td bgcolor="orange">8111-1169</td>
+        </tr>
+        <tr bgcolor="yellow">
+            <th>Lazer</th>
+            <th colspan="2">Pisina, Salão <p>de Festas,</p><p>Quadra</p><p>Poliesportivas</p></th>
+            <th colspan="3" bgcolor="ORANGE">Ponto Para Morar</th>
+            <TH bgcolor="ORANGE"><B>lANÇAMENTO</B></TH>
+        </tr>
+
+    </table>
+
+</html>
