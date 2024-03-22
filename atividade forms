@@ -1,15 +1,15 @@
 <html>
     
-    <HEAd>
-    <meta http-equiv="refresh" content="30; file:///C:/Users/Aluno/Desktop/CSi/formularios.html"></meta>
+<HEAd>
+    <meta http-equiv="refresh" content="1; file:///C:/Users/Aluno/Desktop/CSi/atividades%20forms.html"></meta>
     </HEAd>
+
     <body>
-    
         <form action="destino.html" method="get" enctype="multipart/form-data">
 
             <label for="nome">NOME:</label>
                 <br>
-            <input type="text" name="nome" id="nome" size="50" maxlength="1">
+            <input type="text" name="nome" id="nome" size="20" maxlength="1">
 
             <BR></BR>
 
@@ -19,43 +19,74 @@
 
             <br></br>
 
-            <label for="senha">Senha:</label>
-            <br>
-            <input type="password" name="senha" id="senha">
+            <label for="message">Message:</label>
+                <br>
+                <input type="hidden" name="operacao" value="cadastrar_user">
+                <textarea name="mensagem" cols="25" rows="5"></textarea>
 
-            <br></br>
+                <br></br>
 
-            <label for="arquivo">Envie sua foto:</label>
-            <br>
-            <input type="file" name="arquivo" id="arquivo">
+                <label for="arquivo">Select A File To Upload:</label>
+                <br>
+                <input type="text" name="arquivo" id="arquivo">
+                <button>Browse..</button>
 
-            <br></br>
-
-            <input type="checkbox" name="html" id="html">
-            <label for="html">html</label>
-            &nbsp;&nbsp;   &nbsp;&nbsp;   &nbsp;&nbsp;   &nbsp;&nbsp;   &nbsp;&nbsp;
-            <input type="checkbox" name="css" id="css">
-            <label for="css">CSS</label>
-            &nbsp;&nbsp;   &nbsp;&nbsp;   &nbsp;&nbsp;   &nbsp;&nbsp;   &nbsp;&nbsp;
-            <input type="checkbox" name="css" id="css">
-            <label for="js">Javascript</label>
-
-            <br></br>
-
-            <input type="radio" name="curso" id="mi">
-            <label for="mi">Medio em Informatica</label>
-            <br>
-            <input type="radio" name="curso" id="si">
-            <label for="si">Sistemas para internet</label>
-            <br></br>
-            
-            <input type="hidden" name="operacao" value="cadastrar_user">
-            <textarea name="mensagem" cols="25" rows="10"></textarea>
-            <select name="curso" size="7" multiple>
-                <option value="mi">Medio</option>
-                <option value="si">Sistemas</option>
-            </select>
+                <br></br>  
+                <button>Submit</button>
 
         </form>
     </body>
+
+
+
+    <table border="1" width="450" >
+
+        <tr>
+            <th colspan="2">Pizza Shop 2.0</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Pizza Topping</td>
+              <td>
+                 <form> 
+                    <input type="radio" name="Pizza1" id="s">
+                <label for="s">Supreme</label>
+                <br>
+                <input type="radio" name="Pizza2" id="v">
+                <label for="v">Veterarian</label>
+                <br>
+                <input type="radio" name="Pizza3" id="h">
+                <label for="h">Hawaiian</label>
+                     </form>
+             </td>
+        </tr>
+        <tr>
+            <td>Pizza Sauce</td>
+        </tr>
+        <tr>
+            <td>Opcional Extras</td>
+            <td>
+                 <input type="checkbox" name="html" id="html">
+                <label for="html">Extra Cheese</label>
+                &nbsp;&nbsp;
+                <input type="checkbox" name="css" id="css">
+                <label for="css">Gluten Free Base</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">Deliviry instructions:
+                <textarea name="" id="" cols="60" rows="7"></textarea>
+            </td>
+           
+        </tr>
+        <tr>
+            <td colspan="2"><Button>Send my Order</Button></td>
+        </tr>
+
+    </table>
+
+
 </html>
