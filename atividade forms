@@ -1,0 +1,39 @@
+<html>
+    
+<HEAd>
+    <meta http-equiv="refresh" content="1; file:///C:/Users/Aluno/Desktop/CSi/atividades%20forms.html"></meta>
+    </HEAd>
+
+    <body>
+        <form action="destino.html" method="get" enctype="multipart/form-data">
+
+            <label for="nome">NOME:</label>
+                <br>
+            <input type="text" name="nome" id="nome" size="20" maxlength="1">
+
+            <BR></BR>
+
+            <LABEl for="email">E-mail:</LABEl>
+            <br>
+            <input type="email" name="email" id="email">
+
+            <br></br>
+
+            <label for="message">Message:</label>
+                <br>
+                <input type="hidden" name="operacao" value="cadastrar_user">
+                <textarea name="mensagem" cols="25" rows="5"></textarea>
+
+                <br></br>
+
+                <label for="arquivo">Select A File To Upload:</label>
+                <br>
+                <input type="text" name="arquivo" id="arquivo">
+                <button>Browse..</button>
+
+                <br></br>  
+                <button>Submit</button>
+
+    </body>
+
+</html>
