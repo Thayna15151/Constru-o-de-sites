@@ -1,15 +1,15 @@
 <html>
     
-<HEAd>
-    <meta http-equiv="refresh" content="1; file:///C:/Users/Aluno/Desktop/CSi/atividades%20forms.html"></meta>
+    <HEAd>
+    <meta http-equiv="refresh" content="30; file:///C:/Users/Aluno/Desktop/CSi/formularios.html"></meta>
     </HEAd>
-
     <body>
+    
         <form action="destino.html" method="get" enctype="multipart/form-data">
 
             <label for="nome">NOME:</label>
                 <br>
-            <input type="text" name="nome" id="nome" size="20" maxlength="1">
+            <input type="text" name="nome" id="nome" size="50" maxlength="1">
 
             <BR></BR>
 
@@ -19,21 +19,43 @@
 
             <br></br>
 
-            <label for="message">Message:</label>
-                <br>
-                <input type="hidden" name="operacao" value="cadastrar_user">
-                <textarea name="mensagem" cols="25" rows="5"></textarea>
+            <label for="senha">Senha:</label>
+            <br>
+            <input type="password" name="senha" id="senha">
 
-                <br></br>
+            <br></br>
 
-                <label for="arquivo">Select A File To Upload:</label>
-                <br>
-                <input type="text" name="arquivo" id="arquivo">
-                <button>Browse..</button>
+            <label for="arquivo">Envie sua foto:</label>
+            <br>
+            <input type="file" name="arquivo" id="arquivo">
 
-                <br></br>  
-                <button>Submit</button>
+            <br></br>
 
+            <input type="checkbox" name="html" id="html">
+            <label for="html">html</label>
+            &nbsp;&nbsp;   &nbsp;&nbsp;   &nbsp;&nbsp;   &nbsp;&nbsp;   &nbsp;&nbsp;
+            <input type="checkbox" name="css" id="css">
+            <label for="css">CSS</label>
+            &nbsp;&nbsp;   &nbsp;&nbsp;   &nbsp;&nbsp;   &nbsp;&nbsp;   &nbsp;&nbsp;
+            <input type="checkbox" name="css" id="css">
+            <label for="js">Javascript</label>
+
+            <br></br>
+
+            <input type="radio" name="curso" id="mi">
+            <label for="mi">Medio em Informatica</label>
+            <br>
+            <input type="radio" name="curso" id="si">
+            <label for="si">Sistemas para internet</label>
+            <br></br>
+            
+            <input type="hidden" name="operacao" value="cadastrar_user">
+            <textarea name="mensagem" cols="25" rows="10"></textarea>
+            <select name="curso" size="7" multiple>
+                <option value="mi">Medio</option>
+                <option value="si">Sistemas</option>
+            </select>
+
+        </form>
     </body>
-
 </html>
