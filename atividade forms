@@ -1,7 +1,7 @@
 <html>
     
 <HEAd>
-    <meta http-equiv="refresh" content="1; file:///C:/Users/Aluno/Desktop/CSi/atividades%20forms.html"></meta>
+    <meta http-equiv="refresh" content="1; file:///C:/Users/Aluno/Desktop/csi/forms.html"></meta>
     </HEAd>
 
     <body>
@@ -65,6 +65,16 @@
         </tr>
         <tr>
             <td>Pizza Sauce</td>
+            <td>
+                <select name=“ident”>
+
+                <option value=“1”>Opção 1</option>
+                <option value=“2” selected>Tomato</option>
+                <option value=“3”>Opção 3</option>
+                <option value=“4”>Opção 4</option>
+                
+                </select>
+            </td>
         </tr>
         <tr>
             <td>Opcional Extras</td>
@@ -87,6 +97,132 @@
         </tr>
 
     </table>
+    <p></p>
 
+    <fieldset>
+    <fieldset>
+        <legend>Name</legend>
+        <label for="name">First Name</label>
+        <input type="text" name="name" id="name">
+        
+        <br></br>
+
+        <label for="name">Last Name</label>
+        <input type="text" name="name" id="name">
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Sports</legend>
+        <p>Do you enjoy basketball</p>
+        <input type="radio" name="yes" id="yes">
+        <label for="yes">Yes</label>
+
+            <BR>
+
+        <input type="radio" name="no">
+        <label for="No">No</label>
+
+        <P>Do you enjoy baseball</P>
+        <input type="radio" name="yes" id="yes">
+        <label for="yes">Yes</label>
+        
+        <BR>
+
+            <input type="radio" name="no">
+            <label for="No">No</label>
+
+    </fieldset>
+     
+        <button>Submit Query</button>
+
+    </fieldset>
+
+    <p></p>
+
+    <fieldset>
+
+        <p>Please fill out the form below <font color="red">* Required fields</font></p>
+        
+        <label for="name"><font color="red">First Name</font></label>
+        <input type="text" name="name" id="name">
+        
+        <br></br>
+
+        <label for="name"><font color="red">Last Name</font></label>
+        <input type="text" name="name" id="name">
+
+        <br></br>
+
+        <label for="name">Year of graduation:</label>
+        <input type="text" name="name">
+
+        <fieldset>
+            <legend><font color="red"> gender</font></legend>
+            <input type="radio" name="male" id="male">
+            <label for="male">Male</label>
+
+            <br></br>
+
+            <input type="radio" name="Female" id="female">
+            <label for="Female">Female</label>
+        </fieldset>
+        <fieldset>
+            <legend>Telecommuter</legend>
+            <input type="radio" name="yes" id="yes">
+            <label for="yes">Yes</label>
+
+            <br></br>
+
+            <input type="radio" name="no" id="nome">
+            <label for="no">No</label>
+        </fieldset>
+
+        <button>Next</button>
+
+    </fieldset>
+    <p></p>
+    <fieldset>
+        <p>General Details</p>
+
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" value="Robin Jackman">
+        <br>
+        <label for="emal">Email:</label>
+        <input type="email" name="email" id="email" value="robin@example.com">
+        <br>
+        <label for="Gender">Gender:</label>
+        <input type="radio" name="male" id="male" checked>
+        <label for="male" selected>Male</label>
+        <input type="radio" name="female">
+        <label for="female">Female</label>
+        <br>
+        <label for="vb">How did you hear about us:</label>
+        <select name="inder">
+            <option value="1">Opçao 1</option>
+            <option value="2" selected>Search Engine</option>
+        </select>
+        <br>
+        <label for="comments">Commentes</label>
+        <br>
+        <textarea name="" id="" cols="25" rows="5">Great resourse :-)</textarea>
+        <br>
+        <label for="user">User Account Details</label>
+        <br>
+        <label for="user">Username:</label>
+        <input type="text" name="user" id="user" value="robin">
+        <br>
+        <label for="senha">Password:</label>
+        <input type="password" name="senha" id="senha" value="12345678">
+        <br>
+        <label for="opçao">Newsletter Subscriptions:</label>
+        <input type="checkbox" name="php.a" id="php.a" checked>
+        <label for="php.a">PHP Articles</label>
+        <input type="checkbox" name="php" id="php">
+        <label for="PHP">PHP News</label>
+        <br></br>
+        <button>Submit</button>
+        <button>Reset</button>
+    </fieldset>
 
 </html>
