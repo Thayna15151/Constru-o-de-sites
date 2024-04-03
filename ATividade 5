@@ -59,10 +59,68 @@
      <p>                                                                        </p>
      <h1>TIME TABLE</h1>
 
-    <table border="1">
+    <table border="1" width="90%" height="30%">
         <tr>
             <th>Day/Period</th>
+            <th>I <p>9:30</p><p>10:20</p></th>
+            <th>II <p>10:20</p><p>11:10</p></th>
+            <th>III <p>12:00</p><p>12:40</p></th>
+            <th><p>12:00</p><p>12:40</p></th>
+            <th>IV<p>12:40</p><p>1:30</p></th>
+            <th>V<p>1:30</p><p>2:20</p></th>
+            <th>VI <p>2:20</p><p>3:10</p></th>
+            <th>VII <p>3:10</p><p>4:00</p></th>
         </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Eng</td>
+            <td>Mat</td>
+            <td>Che</td>
+            <th rowspan="5">LUNCH</th>
+            <td colspan="3">LAB</td>
+            <td>Phy</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td colspan="3">LAB</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Mat</td>
+            <td>SPORTS</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>Mat</td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3">LIBRARY</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>Phy</td>
+            <td>Eng</td> 
+            <td>Che</td>
+             <td colspan="3">LAB</td>
+            <td>Mat</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>Phy</td>
+            <td>Eng</td> 
+            <td>Che</td>
+             <td colspan="3">LAB</td>
+            <td>Mat</td>
+        </tr>
+    </table>
+    <p></p>
+
+    <h3><font color="red">Horário das Aulas</font></h3>
+    <hr color="red">
+
+    <table>
+        <tr></tr>
+
     </table>
 
 
