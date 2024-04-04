@@ -2,7 +2,7 @@
     <head>
         <meta http-equiv="refresh" content=1; url="file:///C:/Users/Aluno/Desktop/csi/tabela.html"></meta>
     </head>
-    <center>
+    
     <p aling="center">Catálogo da Metal & Cia</p>
     <table border="1">
         <tr bgcolor="gray">
@@ -115,19 +115,11 @@
     </table>
     <p></p>
 
-    <h3><font color="red">Horário das Aulas</font></h3>
-    <hr color="red">
-
-    <table>
-        <tr></tr>
-
-    </table>
-
   <h3><font color="red">Horário das aulas</font></h3>
        <hr color="red">
-       <h3 aling="center"><font color="bluewhith" aling="center">Quadro de horários</font></h3>
+       <h3 aling="left"><font color="#add8e6" aling="left">Quadro de horários</font></h3>
        
-       <table border="1">
+       <table border="1" width="600" cellspacing="0" cellpadding="4">
          <tr bgcolor="blue">
            <td><font color="gray">Horário</font></td>
            <td><font color="gray">Segunda</font></td>
@@ -139,12 +131,12 @@
          </tr>
          <tr>
              <td bgcolor="blue"><font color="gray">17:20</font></td>
-             <td bgcolor="greeblack"></td>
-             <td bgcolor="greeblack"></td>
-              <td bgcolor="greeblack"></td>
-              <td bgcolor="greeblack"></td>
-              <td bgcolor="greeblack"></td>
-              <td bgcolor="greeblack"></td>
+             <td bgcolor="#5c99a4"></td>
+             <td bgcolor="#5c99a4"></td>
+             <td bgcolor="#5c99a4"></td>
+             <td bgcolor="#5c99a4"></td>
+             <td bgcolor="#5c99a4"></td>
+             <td bgcolor="#5c99a4"></td>
          </tr>
          <tr>
              <td bgcolor="blue"><font color="gray">18:10</font></td>
@@ -157,12 +149,12 @@
          </tr>
              <tr>
              <td bgcolor="blue"><font color="gray">19:00</font></td>
-             <td bgcolor="greeblack"></td>
-             <td bgcolor="greeblack"></td>
-              <td bgcolor="greeblack"></td>
-              <td bgcolor="greeblack"></td>
-              <td bgcolor="greeblack"></td>
-              <td bgcolor="greeblack"></td>
+             <td bgcolor="#5c99a4"></td>
+             <td bgcolor="#5c99a4"></td>
+             <td bgcolor="#5c99a4"></td>
+             <td bgcolor="#5c99a4"></td>
+             <td bgcolor="#5c99a4"></td>
+             <td bgcolor="#5c99a4"></td>
          </tr>
            <tr>
              <td bgcolor="blue"><font color="gray">19:50</font></td>
@@ -173,14 +165,14 @@
              <td></td>
              <td></td>
          </tr>
-         <tr cellspacing="10" bgcolor="blue">
-              <td><font color="gray">20:40</font></td>
-              <th>Intervalo</th>
-              <th>Intervalo</th>
-              <th>Intervalo</th>
-              <th>Intervalo</th>
-              <th>Intervalo</th>
-              <th>Intervalo</th>
+         <tr cellspacing="9" bgcolor="blue">
+              <td cellpadding="9"><font color="gray">20:40</font></td>
+              <th bgcolor="#5c99a4">Intervalo</th>
+              <th bgcolor="#5c99a4">Intervalo</th>
+              <th bgcolor="#5c99a4">Intervalo</th>
+              <th bgcolor="#5c99a4">Intervalo</th>
+              <th bgcolor="#5c99a4">Intervalo</th>
+              <th bgcolor="#5c99a4">Intervalo</th>
          </tr>
            <tr>
              <td bgcolor="blue"><font color="gray">20:50</font></td>
@@ -193,12 +185,12 @@
          </tr>
              <tr>
              <td bgcolor="blue"><font color="gray">21:40</font></td>
-             <td bgcolor="greeblack"></td>
-             <td bgcolor="greeblack"></td>
-              <td bgcolor="greeblack"></td>
-              <td bgcolor="greeblack"></td>
-              <td bgcolor="greeblack"></td>
-              <td bgcolor="greeblack"></td>
+             <td bgcolor="#5c99a4"></td>
+             <td bgcolor="#5c99a4"></td>
+             <td bgcolor="#5c99a4"></td>
+             <td bgcolor="#5c99a4"></td>
+             <td bgcolor="#5c99a4"></td>
+             <td bgcolor="#5c99a4"></td>
               </tr>
           <tr>
               <td bgcolor="blue"><font color="gray">22:30</font></td>
