@@ -123,5 +123,103 @@
 
     </table>
 
+  <h3><font color="red">Horário das aulas</font></h3>
+       <hr color="red">
+       <h3 aling="center"><font color="bluewhith" aling="center">Quadro de horários</font></h3>
+       
+       <table border="1">
+         <tr bgcolor="blue">
+           <td><font color="gray">Horário</font></td>
+           <td><font color="gray">Segunda</font></td>
+           <td><font color="gray">Terça</font></td>
+           <td><font color="gray">Quarta</font></td>
+             <td><font color="gray">Quinta</font></td>
+               <td><font color="gray">Sexta</font></td>
+                 <td><font color="gray">Sábado</font></td>
+         </tr>
+         <tr>
+             <td bgcolor="blue"><font color="gray">17:20</font></td>
+             <td bgcolor="greeblack"></td>
+             <td bgcolor="greeblack"></td>
+              <td bgcolor="greeblack"></td>
+              <td bgcolor="greeblack"></td>
+              <td bgcolor="greeblack"></td>
+              <td bgcolor="greeblack"></td>
+         </tr>
+         <tr>
+             <td bgcolor="blue"><font color="gray">18:10</font></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+         </tr>
+             <tr>
+             <td bgcolor="blue"><font color="gray">19:00</font></td>
+             <td bgcolor="greeblack"></td>
+             <td bgcolor="greeblack"></td>
+              <td bgcolor="greeblack"></td>
+              <td bgcolor="greeblack"></td>
+              <td bgcolor="greeblack"></td>
+              <td bgcolor="greeblack"></td>
+         </tr>
+           <tr>
+             <td bgcolor="blue"><font color="gray">19:50</font></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+         </tr>
+         <tr cellspacing="10" bgcolor="blue">
+              <td><font color="gray">20:40</font></td>
+              <th>Intervalo</th>
+              <th>Intervalo</th>
+              <th>Intervalo</th>
+              <th>Intervalo</th>
+              <th>Intervalo</th>
+              <th>Intervalo</th>
+         </tr>
+           <tr>
+             <td bgcolor="blue"><font color="gray">20:50</font></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+         </tr>
+             <tr>
+             <td bgcolor="blue"><font color="gray">21:40</font></td>
+             <td bgcolor="greeblack"></td>
+             <td bgcolor="greeblack"></td>
+              <td bgcolor="greeblack"></td>
+              <td bgcolor="greeblack"></td>
+              <td bgcolor="greeblack"></td>
+              <td bgcolor="greeblack"></td>
+              </tr>
+          <tr>
+              <td bgcolor="blue"><font color="gray">22:30</font></td>
+              <th>Termino</th>
+              <th>Termino</th>
+              <th>Termino</th>
+              <th>Termino</th>
+              <th>Termino</th>
+              <th>Termino</th>
+         </tr>
+             <tr bgcolor="blue">
+              <td><font color="gray">Horário</font></td>
+           <td><font color="gray">Segunda</font></td>
+           <td><font color="gray">Terça</font></td>
+           <td><font color="gray">Quarta</font></td>
+             <td><font color="gray">Quinta</font></td>
+               <td><font color="gray">Sexta</font></td>
+                 <td><font color="gray">Sábado</font></td>
+         </tr>
+         
+       </table>
+
 
 </html>
